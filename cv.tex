@@ -9,7 +9,7 @@
             {\huge\bfseries}
             {}
             {0em}
-            {}
+            {}[\titlerule]
 
 \titleformat{\subsection}[runin]
             {\bfseries}
@@ -26,7 +26,12 @@
     \theauthor
   \end{center}
 }
-            
+
+\titlespacing{\subsection}
+{0em}{0.5em}{0.5em}
+
+\pagenumbering{gobble}
+
 \begin{document}
 
 \title{Odd-Harald Lillestø Myhren}
@@ -48,7 +53,7 @@ Python, Bash
 
 \subsection{Markup}
 
-LaTeX, HTML, CSS, Markdown
+\LaTeX, HTML, CSS, Markdown
 
 \subsection{Frameworks}
 
@@ -56,11 +61,11 @@ LaTeX, HTML, CSS, Markdown
 
 \subsection{Programming Languages}
 
-Rust, TypeScript, C, C++, C\#, Zig, Nix
+Rust, TypeScript, C, C++, C\#, Nix, Zig
 
 \subsection{Other}
 
-Git, Linux, Sqlite, PostgreSQL, Supabase, TailwindCSS, Continuous integration
+Git, Linux, Supabase, Sqlite, PostgreSQL, TailwindCSS, Continuous Integration
 
 \section{Projects}
 
